@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); /*font usada*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+*{ 
+    margin: 0; /*margem de baixo do nosso elemento*/
+    padding: 0; /*para dar um espaço no elementos*/
+    box-sizing: border-box; /*usada para calcular larguras (widths) e alturas (heights) dos elementos*/
+    text-decoration: none;  
+
+}
+
+body {
+    font-size: 100%;  /*tamanho de letra (font)*/
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #fffcfc79 85.61%); /*cor de fundo de tela*/
+}
+.cabecalho {
+     display: flex; /* or inline-flex */ /*Subir o display para cima ou mudar de local*/
+     flex-direction: row; /*direção do nossos itens*/
+     align-items: center; /*alinhado ou centralização dos itens*/
+     justify-content:space-around; /*modo de espaçamento do nossos itens*/
+     padding: 20px; /*espaço do diâmetro do nosso itens*/
+}
+
+.logo1 {
+    height: 200px; /*altura da imagem*/
+    border-radius: 50%; 
+}
+
+.cabecalho-menu {
+    display: flex; /*Subir o display para cima*/
+    gap: 30px;  /*para dar um espaço nos elementos*/
+}
+.cab-menu-item {
+    font-family: 'Sedgwick Ave Display', cursive; /*fonte*/
+    color: rgb(14, 1, 63);  /*cor da fonte*/
+    font-weight: 400; /*sombra ou deixa a fonte mais forte*/
+    font-size: 20px; /*tamanho da nossa fonte*/
+    border: 04px solid rgb(0, 0, 0); 
+}
+
+.conteudo {
+    margin-bottom: 48px ;
+    border-top: 1px solid rgb(0, 0, 0); /*linha de separação do cabecalho para conteudo principal*/
+
+}
+
+.cont-principal{
+    display: flex; /*Subir o display para cima ou mudar de local*/
+    flex-direction: row; /*para deixar em coluna*/
+    align-items: center; /*alinhado ou centralização dos itens*/
+    padding: 100px; /*para dar um espaço no elementos*/
+    justify-content: space-around; /*modo de espaçamento do nossos itens*/
+    gap: 32px; /*para dar um espaço no elementos*/
+   
+}
+
+.prazer {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 200%; /*Tamanho da nossa fonte*/
+    color: rgb(14, 1, 63); /*cor*/
+    text-align: center; /*movimentar um texto*/
+}
+
+.Sobremim {
+    font-family: 'Chelsea Market', cursive;
+    color: rgb(0, 0, 0);  /*cor da fonte*/
+    font-weight: 800; /*sombra ou deixa a fonte mais forte*/
+    font-size: 150%; /*tamanho da nossa fonte*/
+    border: 0.4px solid rgb(0, 0, 0);
+    text-align: center; /*movimentar um texto*/
+    padding: 10px; /*para dar um espaço no elementos*/
+}
+
+.subtitulo {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    font-size: 150%;
+    padding: 5%;
+}
+
+.myphoto {
+    box-shadow: 4px 5px 4px rgb(0, 0, 0, 0.25); /*sombra*/
+    border-radius: 20px; /*forma do elementos*/
+    width: 800px; /*Largura*/
+    border:none; /*borda*/
+}
+.cont-secundaria-titulo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Chelsea Market', cursive;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 16px;
+}
+    
+.cont-secundario-paragrafo-principal{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 40px;
+}
+    
+.cont-secundario-paragrafo{
+        font-weight: 600;
+        font-size: 20px;
+}
+    
+.rodape {
+    padding: 10px;
+    border-top: 0.4px solid rgb(0, 0, 0);
+}
+    
+.rodape-imagem {    
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}

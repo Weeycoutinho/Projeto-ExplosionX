@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); /*font usada*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+*{ 
+    margin: 0; /*margem de baixo do nosso elemento*/
+    padding: 0; /*para dar um espaço no elementos*/
+    box-sizing: border-box; /*usada para calcular larguras (widths) e alturas (heights) dos elementos*/
+    text-decoration: none;  
+
+}
+
+body {
+    font-size: 100%;  /*tamanho de letra (font)*/
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #fffcfc79 85.61%); /*cor de fundo de tela*/
+}
+.cabecalho {
+     display: flex; /* or inline-flex */ /*Subir o display para cima ou mudar de local*/
+     flex-direction: row; /*direção do nossos itens*/
+     align-items: center; /*alinhado ou centralização dos itens*/
+     justify-content:space-around; /*modo de espaçamento do nossos itens*/
+     padding: 20px; /*espaço do diâmetro do nosso itens*/
+}
+
+.logo {
+    height: 200px; /*altura da imagem*/
+    border-radius: 50%; 
+}
+.cabecalho-menu {
+    display: flex; /*Subir o display para cima*/
+    gap: 50px;  /*para dar um espaço nos elementos*/
+}
+
+.cab-menu-item {
+    font-family: 'Sedgwick Ave Display', cursive; /*fonte*/
+    color: rgb(14, 1, 63);  /*cor da fonte*/
+    font-weight: 400; /*sombra ou deixa a fonte mais forte*/
+    font-size: 20px; /*tamanho da nossa fonte*/
+    border: 4px solid rgb(0, 0, 0); 
+}
+.Catalogo {
+    font-family: 'Sedgwick Ave Display', cursive; /*fonte*/
+    color: rgb(14, 1, 63);  /*cor da fonte*/
+    font-weight: 400; /*sombra ou deixa a fonte mais forte*/
+    font-size: 20px; /*tamanho da nossa fonte*/
+    border: 0.4px solid rgb(0, 0, 0); 
+}
+.catalogo-principal{
+    display: flex; /*Subir o display para cima ou mudar de local*/
+    flex-direction: row; /*para deixar em coluna*/
+    align-items: center; /*alinhado ou centralização dos itens*/
+    padding: 100px; /*para dar um espaço no elementos*/
+    justify-content: space-around; /*modo de espaçamento do nossos itens*/
+    gap: 32px; /*para dar um espaço no elementos*/
+   
+}
+.catalogo-principal-escrito{
+    display: flex; /*Subir o display para cima ou mudar de local*/
+    flex-direction: column; /*para deixar em coluna, column deixa em coluna*/ 
+}
+
+.catologo-nome{
+    display: flex; /*Subir o display para cima ou mudar de local*/
+    flex-direction: column; /*para deixar em coluna, column deixa em coluna*/  
+}
+
+.catologo-nome{
+    font-family: 'Chelsea Market', cursive;
+    font-weight: 400; /*negrito da nossa fonte*/
+    font-size: 30px; /*Tamanho da nossa fonte*/
+    color: rgb(0, 0, 0); /*cor*/
+    text-align: center;
+}
+
+.catalogo-botao {
+    background-color: rgb(2, 68, 32) ;
+    color: #ffffff;
+    width: 300px; /*Largura*/
+    height: 60px; /*altura*/
+    margin: 10px 100px; /*margen do elementos*/
+    border:none; /*borda*/
+    box-shadow: 4px 5px 4px rgb(0, 0, 0, 0.25); /*sombra*/
+    border-radius: 20px; /*forma do elementos*/
+    font-size: 24px; /*tamanho da fonte*/
+    font-weight: 400px;
+}
+
+.catalogo-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53) ;
+}
+
+.catalogo-imagem{
+        box-shadow: 4px 5px 4px rgb(0, 0, 0, 0.25); /*sombra*/
+        border-radius: 10px; /*forma do elementos*/
+        width: 500px; /*Largura*/
+        border:none; /*borda*/
+        border: 0.4px solid rgb(0, 0, 0);
+}
+
+.cont-secundario-paragrafo{
+        font-weight: 600;
+        font-size: 20px;
+}
+.cont-secundaria-titulo {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Chelsea Market', cursive;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 16px;
+}
+        
+.cont-secundario-paragrafo-principal{
+        border-top: 0.4px solid rgb(0, 0, 0);
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 40px;
+        color: black;
+}
+        
+.cont-secundario-paragrafo{
+            font-weight: 600;
+            font-size: 20px;
+            color: black;
+}
+        
+    
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid rgb(0, 0, 0);
+}
+    
+.rodape-imagem {    
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
